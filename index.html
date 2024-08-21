@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockeys Zone With Tailwind + Daisy UI</title>
+    <title>Third Assignment With Tailwind + Daisy UI</title>
 
     <!-- Link With External CSS -->
     <link rel="stylesheet" href="./index.css" class="">
@@ -34,8 +34,74 @@
 <body class="font-manrope">
 
     <!-- Header Part. -->
-    <header class="">
+    <header class="px-6 lg:px-0 pt-12">
 
+        <!-- Navbar Part. -->
+        <nav class="container mx-auto">
+
+            <div class="flex justify-between items-center">
+
+                <!-- Navbar Left. -->
+                <div class="flex gap-2 items-center">
+                    <img src="./assets/arrow-up-right-01@2x.png" alt="" class="w-8 h-8">
+                    <h3 class="text-[28px] md:text-[32px] text-[#131318] font-extrabold">Rinterio</h3>
+                </div>
+
+
+                <!-- Navbar Middle. -->
+                <div class="hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-[#737373] font-semibold">
+                        <li class="font-bold text-[#131318]">
+                            <a>Home</a>
+                        </li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- Navbar Right. -->
+                <div class="flex gap-5 justify-between items-center">
+
+                    <div class="hidden md:block">
+                        <img src="./assets/Frame 2.png" alt="" class="">
+                    </div>
+
+                    <div class="hidden md:block">
+                        <img src="./assets/Frame 3.png" alt="" class="">
+                    </div>
+
+
+                    <div class="hidden md:flex items-center bg-[#ABEF5F] rounded-[32px] px-[20px] py-[12px] gap-1">
+                        <h3 class="text-[#1C1C1C] font-extrabold text-[18px]">Book Consult</h3>
+                        <div class="rounded-[32px]">
+                            <img src="./assets/arrow-icon.png" alt="" class="w-5/6">
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden px-0">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="h-12 w-12 border border-solid rounded-full p-2 bg-white" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Banner Part. -->
+        <div class="">
+
+        </div>
+        
     </header>
 
     <!-- Main Part. -->
